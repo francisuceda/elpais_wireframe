@@ -10,3 +10,13 @@ img {
 	width: 
 	width: 33%
 	}
+.item.active:focus {
+	background-color: #5A6874;
+}
+
+
+.btn-sm, .btn-xs {
+	padding: 15px 15px;
+	font-size: 12px;
+    line-height: 2;
+	}
