@@ -35,6 +35,9 @@
         <li><a href="#">DEPORTES</a></li>
         <li class="active"></li>
       </ol>
+
+
+
 <!-- PRIMERA NOTICIA-->
 <div class="row">
 
@@ -67,7 +70,21 @@
     <div class="col-md-4">  	
   <h2>CONOSCA MAS DEL MUNDO</h2>
   <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año Lorem Ipsum ha sido el texto de relleno estándar de.</p>
-  </div>
+  <!-- Split button -->
+       <div class="btn-group">
+       <button type="button" class="btn btn-danger">Ver mas</button>
+       <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+       <span class="caret"></span>
+       </button>
+       <ul class="dropdown-menu" role="menu">
+       <li><a href="#">Action</a></li>
+       <li><a href="#">Another action</a></li>
+       <li><a href="#">Something else here</a></li>
+       <li class="divider"></li>
+       <li><a href="#">Separated link</a></li>
+       </ul>
+       </div>
+       </div>
 
     <div class="col-md-4"> 
     <br> 
@@ -78,11 +95,11 @@
 
 
   <!--Impresindibles-->
-  <div class="row">
+
       <div class="row">
         <div class="col-md-4">
           <div class="list-group">
-            <a href="#" class="list-group-item active">TRIBUNA</a>
+            <a href="#" class="list-group-item active">IMPRESINDIBLES</a>
             <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
             <a href="#" class="list-group-item">Morbi leo risus</a>
             <a href="#" class="list-group-item">Porta ac consectetur ac</a>
@@ -92,16 +109,254 @@
 
        <div class="col-md-4">
         <div class="list-group">
-          <a href="#" class="list-group-item active">ULTIMA HORA</a>
+          <a href="#" class="list-group-item active">E- ULTIMA HORA</a>
           <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
           <a href="#" class="list-group-item">Morbi leo risus</a>
           <a href="#" class="list-group-item">Porta ac consectetur ac</a>
           <a href="#" class="list-group-item">Vestibulum at eros</a>
         </div>
       </div>
-  </div>
-  <!--Final Impresindibles-->
 
+            <!-- Optional: clear the XS cols if their content doesn't match in height -->
+      <div class="clearfix visible-xs"></div>
+      <div class="col-md-4">
+        <img src="imagenes/publi1.jpg" alt="publi1" class="img-rounded">
+      </div>
+      </div><!--Final Impresindibles-->
+
+
+<!--Blog-->
+         <div class="row">
+      	 <div class="col-md-4">
+        <div class="list-group">
+        <a href="#" class="list-group-item active">
+        <h4 class="list-group-item-heading">Blog</h4></a>
+        <a>
+    	<br>
+    	<br>
+       <p class="list-group-item-text">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p>
+       <hr>
+       <p class="list-group-item-text">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p>
+       <hr>
+       <p class="list-group-item-text">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p>
+       <hr>
+                </a>
+                </div>
+                </div>
+
+            	 <div class="col-md-4">
+      	 	<h3>ULTMAS ENTRADAS</h3>
+           <div class="media">
+           <a class="pull-left" href="#">
+           <img class="media-object" src="imagenes/publi4.jpg" alt="publi4">
+           </a>
+           <div class="media-body">
+           <h4 class="media-heading">Media heading</h4>
+            ...las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar 
+           </div>
+      </div>
+
+           <div class="media">
+           <a class="pull-left" href="#">
+           <img class="media-object" src="imagenes/publi4.jpg" alt="publi4">
+           </a>
+           <div class="media-body">
+           <h4 class="media-heading">Media heading</h4>
+            ...las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar 
+           </div>
+      </div>
+           <div class="media">
+           <a class="pull-left" href="#">
+           <img class="media-object" src="imagenes/publi4.jpg" alt="publi4">
+           </a>
+           <div class="media-body">
+           <h4 class="media-heading">Media heading</h4>
+            ...las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar 
+           </div>
+      </div>
+      </div>
+
+ <div class="col-md-4">
+ 	      <img src="imagenes/noticia1.jpg" alt="noticia1" class="img-rounded">
+
+      </div>
+      </div><!--Final Blog-->
+
+<hr>
+
+
+<!-- AUSPICIADORES-->
+<div class="row">
+  <div class="col-md-6">
+<div class="btn-group">
+  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown">
+    XXXXXXXXXXX <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    ...
+  </ul>
+ </div>
+
+ <div class="btn-group">
+  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown">
+    XXXXXXXXXXX <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    ...
+  </ul>
+ </div>
+
+ <div class="btn-group">
+  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown">
+    XXXXXXXXXXX <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    ...
+  </ul>
+ </div>
+
+  <div class="btn-group">
+  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown">
+    XXXXXXXXXXX <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    ...
+  </ul>
+ </div>
+
+ <div class="btn-group">
+  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown">
+    XXXXXXXXXXX <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    ...
+  </ul>
+ </div>
+
+ <div class="btn-group">
+  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown">
+    XXXXXXXXXXX <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    ...
+  </ul>
+ </div>
+
+<div class="btn-group">
+  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown">
+    XXXXXXXXXXX <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    ...
+  </ul>
+ </div>
+
+ <div class="btn-group">
+  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown">
+    XXXXXXXXXXX <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    ...
+  </ul>
+ </div>
+
+ <div class="btn-group">
+  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown">
+    XXXXXXXXXXX <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    ...
+  </ul>
+ </div>
+
+ <div class="btn-group">
+  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown">
+    XXXXXXXXXXX <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    ...
+  </ul>
+ </div>
+
+ <div class="btn-group">
+  <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown">
+    XXXXXXXXXXX <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    ...
+  </ul>
+ </div>
+
+</div>
+
+<!-- FINAL AUSPICIADORES-->
+
+
+<!-- ICONOS AUSPICIADORES-->
+
+<div class="col-md-6">
+  <a href="#" class="list-group-item active">
+    ICONOS
+    <hr>
+    <span class="glyphicon glyphicon-briefcase"><br></span>
+    <span class="glyphicon glyphicon-cloud-download"><br></span>
+    <span class="glyphicon glyphicon-adjust"></span>
+    <span class="lyphicon glyphicon-cloud-download"></span>
+    <span class="glyphicon glyphicon-briefcase"></span>
+    <span class="glyphicon glyphicon-briefcase"><br></span>
+    <span class="glyphicon glyphicon-cloud-download"><br></span>
+    <span class="glyphicon glyphicon-adjust"></span>
+    <span class="lyphicon glyphicon-cloud-download"></span>
+    <span class="glyphicon glyphicon-briefcase"></span>
+
+    <span class="glyphicon glyphicon-search"></span>
+    <span class="glyphicon glyphicon-cutlery"></span>
+    <span class="glyphicon glyphicon-adjust"></span>
+    <span class="glyphicon glyphicon-compressed"></span>
+    <span class="glyphicon glyphicon-camera"></span><br>
+    <span class="glyphicon glyphicon-briefcase"><br></span>
+    <span class="glyphicon glyphicon-cloud-download"><br></span>
+    <span class="glyphicon glyphicon-adjust"></span>
+    <span class="lyphicon glyphicon-cloud-download"></span>
+    <span class="glyphicon glyphicon-briefcase"></span>
+
+    <span class="glyphicon glyphicon-credit-card"></span>
+    <span class="glyphicon glyphicon-envelope"></span>
+    <span class="glyphicon glyphicon-briefcase"></span>
+    <span class="glyphicon glyphicon-search"></span>
+    <span class="glyphicon glyphicon-bookmark"></span>
+    <span class="glyphicon glyphicon-briefcase"><br></span>
+    <span class="glyphicon glyphicon-cloud-download"><br></span>
+    <span class="glyphicon glyphicon-adjust"></span>
+    <span class="lyphicon glyphicon-cloud-download"></span>
+    <span class="glyphicon glyphicon-briefcase"></span>
+
+    <span class="glyphicon glyphicon-search"></span>
+    <span class="glyphicon glyphicon-eye-close"></span>
+    <span class="glyphicon glyphicon-adjust"></span>
+    <span class="glyphicon glyphicon-search"></span>
+    <span class="glyphicon glyphicon-floppy-disk"></span><br>
+    <span class="glyphicon glyphicon-briefcase"><br></span>
+    <span class="glyphicon glyphicon-cloud-download"><br></span>
+    <span class="glyphicon glyphicon-adjust"></span>
+    <span class="lyphicon glyphicon-cloud-download"></span>
+    <span class="glyphicon glyphicon-briefcase"></span>
+
+    <span class="glyphicon glyphicon-search"></span>
+    <span class="glyphicon glyphicon-cutlery"></span>
+    <span class="glyphicon glyphicon-adjust"></span>
+    <span class="glyphicon glyphicon-search"></span>
+    <span class="glyphicon glyphicon-briefcase"><br></span>
+    <span class="glyphicon glyphicon-cloud-download"><br></span>
+    <span class="glyphicon glyphicon-adjust"></span>
+    <span class="lyphicon glyphicon-cloud-download"></span>
+    <span class="glyphicon glyphicon-briefcase"></span>
+    <span class="glyphicon glyphicon-cutlery"></span><br><br>
+
+</a>
+</div>
+</div>
+<!-- FINAL ICONOS AUSPICIADORES-->
 
 
 
